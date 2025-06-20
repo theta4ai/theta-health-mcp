@@ -27,7 +27,7 @@ Next, configure your MCP client (such as Cursor) to use this server. Most MCP cl
       "command": "npx",
       "args": [
         "-y",
-        "theta_health_mcp",
+        "theta_health_mcp"
       ]
     }
   }
@@ -45,7 +45,7 @@ if you have Theta Token, you can set it in the env variable.
       "command": "npx",
       "args": [
         "-y",
-        "theta_health_mcp",
+        "theta_health_mcp"
       ],
       "env": {
         "THETA_HEALTH_TOKEN": "<theta-token>"
