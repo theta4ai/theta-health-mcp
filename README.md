@@ -20,8 +20,7 @@ Configure your MCP client (such as `Cursor` / `Cherry Studio`) to use this serve
 
 You will need to login in with `oauth2.0` for the first time.
 
-### Claude Desktop
-
+If you have `npx` tool in your runtime, you can also use this:
 
 ```json
 {
@@ -37,6 +36,13 @@ You will need to login in with `oauth2.0` for the first time.
 }
 ```
 
+### Claude Desktop
+
+`One-click` for add Theta Health MCP to Claude Desktop by Claude Desktop Extension:
+
+- https://github.com/theta4ai/theta-health-mcp-dxt
+- [Claude Desktop Extensions: One-click MCP server installation for Claude Desktop](https://www.anthropic.com/engineering/desktop-extensions)
+
 ### Claude Code
 
 ```sh
@@ -44,6 +50,8 @@ claude mcp add -s user -t http theta_health_mcp https://mcp.thetahealth.ai/mcp
 ```
 
 ## Tools
+
+for example
 
 - **get_medical_records**: Retrieve medical records including blood tests, laboratory results and clinical measurements
 - **get_functional_records**: Retrieve functional examination records including urinalysis, stool examination, pulmonary function, immunology, physical examination, ultrasound, electrocardiogram, etc.
